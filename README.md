@@ -3,8 +3,14 @@
 Making Websites in 30 days!
 
 DAY  1: Portfolio
+
+
 DAY  2: Wedding invitation (30Days30Websites_1)
+
+
 DAY  3: Tourist attraction
+
+
 DAY  4: Product website
 DAY  5: Restaurant menu                        : https://restaurantmenupv.surge.sh
 DAY  6: Author/book website

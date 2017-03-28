@@ -1,0 +1,135 @@
+html,
+  body {
+    height: 100%; /*setting this explicitly is important*/
+  }
+body {
+    display: flex; /*flex superpowers activated! */
+    flex-direction: column; /*Stack the flex-items (main and footer elements) vertically NOT horizontally*/
+  }
+  main {
+    flex: 1 0 auto; /*fill the available space*/
+  }
+
+footer {
+    flex: 0 0 90px; /*don't grow or shrink - just stay at a height of 90px.*/
+  }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color:#fff;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  color: #222;
+  font-size: 0.9em;
+  }
+
+footer {
+    flex: 0 0 90px;
+    padding: 10px;
+    color: #fff;
+    background-color: #915C83;
+  }
+
+main {
+  flex: 1 0 auto; /*Is a flex item*/
+  display: flex; /*I just included this! - now a flex container with flex items: sidebar & main content section*/
+  }
+
+aside {
+    flex: 0 0 40px; /*do not grow or shrink. Stay fixed at 40px*/
+}
+
+aside {
+    /* ...  */
+    display: flex; /*Now a flex-container too*/
+    flex-direction: column; /*stack icons vertically*/
+    /*since direction is changed, this works on the vertical direction*/
+    justify-content: space-around;
+    align-items: center; /*direction is changed! This affects the horizontal direction. Places Icons in the center*/
+    background-color: #F0FFFF; /*make me pretty*/
+}
+
+aside i.fa {
+  font-size: 0.9em;  /*font size for the icons*/
+}
+
+.content {
+    display: flex;
+    flex: 1 1 auto; /*this makes sure the section grows to fill the entire available space and shrinks too*/
+    flex-direction: column;
+}
+
+.music-head {
+   flex: 0 0 280px; /*Same memo, don't grow or shrink - stay at 280px*/
+  display: flex;
+  padding: 40px;
+  background-color:#915C83;
+}
+
+.music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+}
+
+li {
+  display: flex; /*Paragraphs are now displayed on one line*/
+  padding: 0 20px; /*Some breahing space*/
+  min-height: 50px;
+}
+
+li p {
+  flex: 0 0 25%; /*This is the sweet sauce*/
+}
+
+li span.music-cloud {
+  border: 1px solid black;
+  font-size: 0.6em;
+  padding: 3px;
+}
+
+li:nth-child(2n) {
+  background-color: #F0FFFF;
+}
+
+.bill-music{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.bill-music div:nth-child(1){
+  margin-bottom: auto;
+}
+
+.bill-music div:nth-child(2){
+  margin-top: 0;
+}
+
+.bill-music div:nth-child(2) i.fa{
+  font-size: 0.9em;
+  padding: 0 0.7em;
+  font-weight: 300;
+
+
+}
+
+.bill-music div:nth-child(1) p:first-child{
+  font-size: 1.8em;
+  margin: 0 0 10px;
+
+}
+
+.bill-music div:nth-child(1) p:not(:first-child){
+  font-size: 0.9em;
+  margin: 2px 0;
+}
+
+p {
+  font-family: 'Lobster', cursive;
+  font-size: 17px;
+}

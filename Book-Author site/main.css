@@ -1,0 +1,76 @@
+/*====================
+index.html
+======================*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+   .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+     background-color: #8B0021;
+
+   }
+   .par {
+     color: #fff;
+     font-family: 'Roboto', sans-serif;
+   }
+   .par1 {
+     color: #000;
+     font-family: 'Roboto', sans-serif;
+     font-style: italic;
+
+   }
+   .par3{
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+   }
+   .img-rounded{
+     border-style: solid;
+     border-width: 2px;
+     border-color: #8B0021;
+   }
+
+   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+   .row.content {height: 650px}
+
+   /* Set gray background color and 100% height */
+   .sidenav {
+     padding-top: 20px;
+     background-color: #8B0021;
+     height: 100%;
+     border-style: solid;
+     border-width: 2px;
+     border-color: white;
+   }
+
+   .well{
+     background-color: #fff;
+     border-style: solid;
+     border-width: 3px;
+     border-color: #8B0021;
+   }
+   #well1 {
+     margin-top: 80px;
+
+   }
+   .col-sm-3 {
+     margin-right: 35px;
+     margin-left: 50px;
+   }
+
+   /* Set black background color, white text and some padding */
+   .foot {
+     background-color: #8B0021;
+     color: white;
+     padding: 60px;
+     font-family: 'Roboto', sans-serif;
+   }
+
+   /* On small screens, set height to 'auto' for sidenav and grid */
+   @media screen and (max-width: 767px) {
+     .sidenav {
+       height: auto;
+       padding: 15px;
+     }
+.collapse navbar-collapse{
+  font-size: 25px;
+}

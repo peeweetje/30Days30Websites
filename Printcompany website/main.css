@@ -1,0 +1,113 @@
+
+
+body {
+  padding: 3em 3em;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-image: url(kevin-crosby-87862.jpg);
+  background-size: cover;
+}
+
+.navbar{
+  font-size: 1.2em;
+  font-family: 'Cinzel', serif;
+  background-color: #FDC8B6;
+}
+
+.header {
+  margin-top: 5em;
+  z-index: 1;
+  position: relative;
+  font-family: 'Cinzel', serif;
+  font-size: 2em;
+
+}
+
+.header .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+
+.header .skew .header-inner {
+  padding: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  padding-top:80px;
+
+}
+
+.main-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Cinzel', serif;
+  position: relative;
+  margin-right: 25px;
+
+}
+
+.main-container:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -36px;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transform: skewY(2.5deg);
+  -moz-transform: skewY(2.5deg);
+  -ms-transform: skewY(2.5deg);
+  -o-transform: skewY(2.5deg);
+  transform: skewY(2.5deg);
+  -webkit-backface-visibility: hidden;
+
+}
+
+section {
+  margin: 10px auto;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+    max-width: 600px;
+
+}
+p{
+  color: #fff;
+}
+
+.head{
+  color: #fff;
+}
+
+footer{
+  height:9em;
+  margin-top: 3em;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Cinzel', serif;
+}

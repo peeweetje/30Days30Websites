@@ -1,0 +1,65 @@
+/*==================
+       body
+===================*/
+
+.container {
+    padding: 80px 120px;
+
+}
+body {
+  position: relative;
+}
+/*==================
+     navbarmenu
+===================*/
+
+.navbar-nav li a:hover {
+    color: #000;
+}
+
+
+/*=========================
+      sections
+  ========================*/
+#section1 {
+    padding-top:100px;height:800px;color: #fff; background-color: #848482;
+    background-image:url("images/drew-coffman-100876.jpg");
+    background-size: cover;
+}
+#section2 {
+    padding-top:100px;height:800px;color: #fff; background-color: #848482;
+
+}
+#section3 {
+    padding-top:100px;height:800px;color: #fff; background-color: #848482;
+}
+#section4 {
+    padding-top:100px;height:800px;color: #fff; background-color: #848482;
+}
+
+.head {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5em;
+  color: #fff;
+  margin: 75px;
+}
+.head1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.0em;
+  color: #fff;
+}
+.head2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5em;
+  color: #fff;
+
+}
+.par{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.0em;
+  font-style: italic;
+  color: #fff;
+}
+footer {
+  padding: 50px;
+}

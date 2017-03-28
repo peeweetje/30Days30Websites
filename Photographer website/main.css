@@ -1,0 +1,138 @@
+body {
+  background-image: url(/images/james-donovan-180295.jpg);
+  background-size: cover;
+  margin: 10px;
+
+}
+
+.nav-item {
+  font-size: 1.5em;
+  background-color: rgba(182, 173, 250, 0.2);
+}
+.nav-link {
+  background-color: rgba(182, 173, 250, 0.2);
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+
+}
+.nav-link {
+  background-color: rgba(182, 173, 250, 0.2);
+
+}
+
+a:link {
+  background-color: rgba(182, 173, 250, 0.1);
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.jumbotron {
+  background-color: rgba(182, 173, 250, 0.1);
+
+
+}
+
+.display-3 {
+  font-family: 'Raleway', sans-serif;
+
+
+
+}
+.lead {
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px #fff;
+}
+
+
+/*===============
+    Gallery
+================*/
+.b{
+  margin: 10px;
+}
+
+.text-center{
+  font-family: 'Raleway', sans-serif;
+  margin: 50px;
+}
+.desc{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+.desc1{
+  color: #000;
+}
+
+div.gallery {
+    border: 2px solid #000;
+}
+
+div.gallery:hover {
+    border: 2px solid #fff;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*============
+   contact
+==============*/
+
+
+form {
+  margin-top: 5em;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+footer{
+  margin-left: 5em;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  padding-left: 27em;
+}
+
+.sm{
+  color:#fff;
+  margin-left:1em;;
+}
+.text-muted {
+  color:#fff;
+}

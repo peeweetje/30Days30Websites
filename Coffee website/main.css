@@ -1,0 +1,48 @@
+.img-fluid {
+  background-size: cover;
+
+}
+.container-fluid {
+   margin-top: 7em;
+   margin-left: 7em;
+   margin-right: 7em;
+   margin-bottom: 0;
+
+
+  }
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(images/freddie-marriage-168317.jpg);
+  background-size: cover;
+  border: 2px solid rgba(101, 64, 0, 0.9);
+  color: #B4A29C;
+
+}
+.col-sm-6 {
+  margin:0;
+  padding: 0;
+  border: 2px solid #B4A29C;
+  border-radius: 5px;
+}
+
+footer{
+  margin: 3em;
+  color: #fff;
+}
+
+#myNavbar {
+  background: #B4A29C;
+
+}
+.navbar-brand{
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+h1{
+  font-family: fantasy;
+  letter-spacing: 5px;
+}
+li{
+  font-size: 18px;
+ }

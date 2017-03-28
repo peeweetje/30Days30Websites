@@ -1,0 +1,38 @@
+.bg-1 {
+  background-color: rgba(29, 0, 37, 0.4);
+
+}
+
+.bg-2 {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #555555;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.img-circle{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+    width: 75%;
+    margin-left: 12.5%;
+
+}
+.head {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+}
+
+a {
+  font-family: 'Indie Flower', cursive;
+}
+.page {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}

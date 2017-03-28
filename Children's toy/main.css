@@ -1,0 +1,45 @@
+.navbar {
+  background-color: rgba(253, 255, 152, 0.5);
+  font-size: 1.5em;
+  font-family: 'Freckle Face', cursive;
+
+}
+
+body{
+  background: url(images/duck-funny-soft-toy-toys.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.container {
+   background-color: rgba(255,255,255, .4);
+   width: 100%;
+   margin: 0;
+   text-align: center;
+}
+header {
+  color: #fff;
+}
+
+.head {
+  color:#fff;
+  width: 3em;
+  word-spacing: 1em;
+  margin-top: 3em;
+  margin-left:1em;
+  font-family: 'Freckle Face', cursive;
+  font-size: 6em;
+}
+
+#btn1 {
+  margin: 35%;
+  font-size: 2em;
+  border-radius: 1em;
+  color:#000;
+  font-family: 'Freckle Face', cursive;
+}
+
+footer {
+  background-color: rgba(253, 255, 152, 0.5);
+  padding: 2em;
+  font-family: 'Freckle Face', cursive;
+}

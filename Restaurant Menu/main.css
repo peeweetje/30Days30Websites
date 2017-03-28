@@ -1,0 +1,70 @@
+
+/*=================
+menu.html
+===================*/
+
+ul {
+  display:inline-flex;  /*or inline-flex*/
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.list {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  margin: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0AD1CC;
+}
+.head {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+.list1 {
+  display:column;
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: #Fff;
+
+}
+
+/*===================
+  index.html
+=====================*/
+.text-center {
+   font-family: 'Julius Sans One', sans-serif;
+}
+.navbar{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  background-color: #0AD1CC;
+  }
+  .container {
+    background-color:#fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0AD1CC;
+  }
+  .jumbotron {
+    background-color:#fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0AD1CC;
+  }
+  .foot{
+    height: 100px;
+    background-color: #0AD1CC;
+}
+.foot1 {
+  margin-top: 50px;
+  margin-left: 20px;
+  display: inline-flex;
+  text-align: justify;
+  flex-direction: row-reverse;
+}
+
+  .btn{
+    background-color: #0AD1CC;
+  }

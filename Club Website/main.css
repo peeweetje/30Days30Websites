@@ -1,0 +1,29 @@
+body {
+  background-image: url(xbox_console.png);
+  background-size: cover;
+  margin: 5px;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+
+}
+.jumbotron {
+  background-color: rgba(182, 173, 250, 0.1);
+  margin-top: 16em;
+  color: #fff;
+}
+.btn {
+
+  font-size: 1em;
+  color: #000;
+  background-color: rgba(182, 173, 250, 0.1);
+}
+.btn1 {
+ font-size: 1em;
+ background-color: rgba(182, 173, 250, 0.1);
+ color: #fff;
+}
+.form-control{
+  font-size: 0.7em;
+  background-color: rgba(182, 173, 250, 0.1);
+  color: #fff;
+}

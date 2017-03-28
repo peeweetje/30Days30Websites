@@ -1,4 +1,4 @@
-# 30Days30Websites_0
+# 30Days30Websites
 
 Making Websites in 30 days!
 

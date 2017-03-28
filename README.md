@@ -12,12 +12,14 @@ DAY  4: Product website
 
 DAY  5: Restaurant menu 
 : https://restaurantmenupv.surge.sh
+
 DAY  6: Author/book website
 
 DAY  7: Trailer/movie website
 
 DAY  8: Celebrity fan page 
 : https://celebfansite.surge.sh
+
 DAY  9: Children's toy/game
 
 DAY 10: Photographer website

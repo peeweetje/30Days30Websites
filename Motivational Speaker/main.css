@@ -1,0 +1,124 @@
+body {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background:
+      linear-gradient(
+     rgba(76, 60, 33, 0.4),
+     rgba(76, 60, 33, 0.4)
+   ),
+  url(phil-coffman-161251.jpg);
+  background-size: cover;
+  font-family: 'Architects Daughter', cursive;
+ }
+
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     margin-top: 6em;
+     background-color:rgba(200, 169, 0, 0.0);
+     text-shadow:-2px -5px 10px #000;
+
+ }
+
+
+ li {
+     float: left;
+ }
+
+ li a {
+     display: inline;
+     padding: 40px;
+     font-size: 20px;
+     color:#fff;
+ }
+
+ header{
+   margin-top: 1em;
+   font-size: 4em;
+   color:#fff;
+   text-shadow:-2px -5px 10px #000000;
+
+ }
+
+ p{
+   font-size: 2em;
+   color:#fff;
+   text-shadow:-2px -5px 10px #000000;
+ }
+
+hr{
+  border-top: 1px solid rgba(200, 169, 0, 0.9);
+	text-align: center;
+}
+hr:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: rgba(200, 169, 0, 0.9);
+	color: #000;
+	font-size: 20px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.fa-arrow-right{
+  width: 50px;
+}
+.btn-group{
+  margin-top: 4em;
+  margin-left: 21em;
+-webkit-border-top-left-radius:40px;
+-webkit-border-top-right-radius:40px;
+-webkit-border-bottom-left-radius:40px;
+-webkit-border-bottom-right-radius:40px;
+}
+
+.container{
+  background-color:rgba(200, 169, 0, 0.0);
+  width: 100%;
+  max-width: 960px;
+  margin-top: 5em;
+
+}
+
+.par1{
+  color:#fff;
+  font-size: 1em;
+  text-shadow:-2px -5px 10px #000;
+}
+
+.fa-globe{
+  margin-left: 3em;
+  color: rgba(200, 169, 0, 0.9);
+}
+
+.fa-child{
+  margin-left: 3em;
+  color: rgba(200, 169, 0, 0.9);
+}
+
+.fa-edit{
+  margin-left: 3em;
+  color: rgba(200, 169, 0, 0.9);
+}
+
+h3{
+  color:#fff;
+  text-shadow:-2px -5px 10px #000;
+}
+
+footer{
+  height: 8em;
+  background-color: rgba(200, 169, 0, 0.0);
+
+}
+small{
+  color: #fff;
+}

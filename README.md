@@ -29,3 +29,5 @@ DAY 11: Club website
 DAY 12: Coffee website
 
 DAY 13: Printing company
+
+DAY 14: Motivational Speaker

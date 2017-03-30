@@ -22,7 +22,7 @@ DAY  8: Celebrity fan page
 
 DAY  9: Children's toy/game
 
-DAY 10: Photographer website: https://photographerpv.surge.sh
+DAY 10: Photographer website: https://Photographerpv.surge.sh
 
 DAY 11: Club website
 
